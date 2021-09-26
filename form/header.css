@@ -1,0 +1,35 @@
+.headtitle {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(241, 101, 77);
+}
+.subheadtitle {
+  position: absolute;
+  right: 17cm;
+  color: #ff5b5b;
+  font-size: 0.5cm;
+  font-weight: bolder;
+}
+
+.logoh {
+  display: inline-block;
+  position: absolute;
+  left: 8.7in;
+  top: 0.5pt;
+  height: 1in;
+}
+
+#contact {
+  margin-left: 20px;
+  font-weight: bold;
+  color: rgb(206, 75, 65);
+}
+
+#contact:hover {
+  color: seagreen;
+  cursor: pointer;
+}
+#conus {
+  display: none;
+}
