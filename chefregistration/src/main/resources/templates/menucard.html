@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Menu home page</title>
+</head>
+<body>
+     <h1 style="text-align: center;"> Your Today's Menu </h1>
+     
+     <form action="menu" method="get">
+       <h3 style="text-align: center;">
+         Food name : <input type="text" name="foodName" required> <br>
+         Food Type : <select name="foodType" required>
+                        <option value="" disabled selected>select the food type</option>
+                        <option value="Veg">Veg</option>
+                        <option value="Non-Veg">Non-Veg</option>
+                     </select> <br>
+         Food Period : <input type="text" inputmode="numeric" name="foodPeriod" required> <br>
+         Food Price :  <input type="text" inputmode="numeric" name="foodPrice" required> <br>
+         Chef ID :  <input type="text" inputmode="numeric" name="chefId"
+          required> <br>         
+         
+         <button type="submit"> SUBMIT </button> <br>
+       </h3>
+       
+     </form>
+     
+     <form action="updatemenu" method="get"> <button type="submit"> UPDATE MENU </button> <br>  </form>
+	   <form action="deletemenu" method="get"> <button type="submit"> DELETE MENU </button> <br>  </form>
+</body>
+</html>
